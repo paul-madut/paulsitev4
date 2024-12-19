@@ -2,6 +2,8 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { Github, Linkedin, Mail, MapPin } from 'lucide-react'
+import { PinContainer } from '@/components/ui/3d-pin'
+
 
 function Summary() {
   return (
@@ -49,6 +51,36 @@ function Summary() {
             <span className="sr-only">Email</span>
           </Link>
         </div>
+
+        <h1 className='text-2xl font-bold mt-4 text-center pt-8'> Check out my latest video!</h1>
+
+        <div className="h-[40rem] w-full flex items-start pt-4 justify-center ">
+      <PinContainer
+        title="https://www.youtube.com/@paultheprogrammer1001"
+        href="https://www.youtube.com/watch?v=zil06vCBS6Y"
+      >
+        <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
+          <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
+            Paul The Programmer
+          </h3>
+          <div className="text-base !m-0 !p-0 font-normal">
+            <span className="text-slate-500 ">
+              Hot new coding video out now!
+            </span>
+          </div>
+          <div className="flex flex-1 w-full rounded-lg mt-4" >
+              <Image
+                src="https://i.ytimg.com/an_webp/tQuIk82T3X4/mqdefault_6s.webp?du=3000&sqp=COqdjrsG&rs=AOn4CLB70IEgdTGEGM0OYxxfU-XghTaprw"
+                alt="Profile Picture"
+                width={100}
+                height={'100'}
+                
+                className="rounded-md bg-cover h-full w-full"
+              />
+          </div>
+        </div>
+      </PinContainer>
+    </div>
       </div>
     </div>
   )
