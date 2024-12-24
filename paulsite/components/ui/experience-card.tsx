@@ -24,7 +24,7 @@ export function ExperienceCard({
   return (
     <div className="relative pb-8">
       <Card className="p-6 bg-black border-gray-800 text-white">
-        <div className="flex items-start gap-4">
+        <div className="flex flex-col lg:flex-row items-start gap-4">
           <div className="flex-shrink-0">
             <Image
               src={logoUrl}

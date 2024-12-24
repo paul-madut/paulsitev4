@@ -1,13 +1,14 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import { Github, Linkedin, Mail, MapPin } from 'lucide-react'
+import { Github, Linkedin, Mail, MapPin, File } from 'lucide-react'
 import { PinContainer } from '@/components/ui/3d-pin'
+import Navbar from '@/components/ui/Navbar'
 
 
 function Summary() {
   return (
-    <div className="relative lg:w-1/3 p-8 lg:fixed lg:h-screen overflow-auto text-center lg:text-left h-[50rem] w-full bg-black bg-grid-white/[0.2]">
+    <div className="relative lg:w-1/3 p-8 lg:fixed lg:h-screen overflow-y-hidden overflow-auto text-center lg:text-left h-[50rem] w-full bg-black bg-grid-white/[0.2]">
       {/* SVG and Gradient Background */}
       <div className="absolute inset-0 bg-black [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] z-0"></div>
 
@@ -29,7 +30,7 @@ function Summary() {
           </div>
         </div>
 
-        <div className="mb-8">
+        <div className="mb-8 text-center">
           <h3 className="text-xl font-semibold mb-2">About Me</h3>
           <p className="text-gray-300">
             Passionate software engineer with 7+ years of experience in building scalable web applications. Specialized
@@ -38,7 +39,7 @@ function Summary() {
         </div>
 
         <div className="flex justify-center space-x-4">
-          <Link href="https://github.com" className="text-gray-300 hover:text-purple-300">
+          <Link href="https://github.com/paul-madut" className="text-gray-300 hover:text-purple-300">
             <Github size={24} />
             <span className="sr-only">GitHub</span>
           </Link>
@@ -46,9 +47,13 @@ function Summary() {
             <Linkedin size={24} />
             <span className="sr-only">LinkedIn</span>
           </Link>
-          <Link href="mailto:jane@example.com" className="text-gray-300 hover:text-purple-300">
+          <Link href="mailto:pmadut2003@gmail.com" className="text-gray-300 hover:text-purple-300">
             <Mail size={24} />
             <span className="sr-only">Email</span>
+          </Link>
+          <Link href="/paul-madut-resume.pdf" className="text-gray-300 hover:text-purple-300">
+            <File size={24} />
+            <span className="sr-only">Resume</span>
           </Link>
         </div>
 
