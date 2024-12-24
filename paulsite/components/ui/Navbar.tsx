@@ -34,7 +34,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="fixed lg:sticky opacity-80 top-0 left-0 right-0 z-50 bg-[#0f0f10] border-b-[1px] border-[#52525b] mb-12 w-full">
+      <nav className="fixed lg:sticky opacity-80 top-0 left-0 right-0 z-50 bg-[#0f0f10] border-b-[1px] border-[#1f2937] mb-12 w-full">
         <div className="max-w-full mx-auto px-2">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
