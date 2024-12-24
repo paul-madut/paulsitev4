@@ -15,11 +15,11 @@ function Experience() {
           period=""
           logoUrl="https://www.ebdigital.net/images/computerscreen-removebg-preview.png"
           responsibilities={[
-            "Led the development of an innovative AI-powered shift scheduling platform for the hospitality industry.",
-            "Architected and implemented a scalable microservices-based backend using Node.js and GraphQL.",
-            "Designed and developed a responsive front-end application using React and Next.js.",
-            "Integrated advanced machine learning algorithms for intelligent shift allocation and demand forecasting.",
-            "Managed a team of developers, fostering a culture of innovation and continuous improvement.",
+            "Developed backend logic for 'Tradeful,' a trading journal application, using NestJS framework.",
+            "Integrated TradingView API to support real-time charting and data visualization within the application.",
+            "Implemented robust backend services and APIs to handle user data, trades, and analytics.",
+            "Collaborated with the frontend team to ensure seamless communication between the frontend and backend systems.",
+            "Optimized backend performance and scalability to handle large datasets and concurrent requests.",
           ]}
           technologies={[
             "NextJS",

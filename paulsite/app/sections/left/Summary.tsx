@@ -75,7 +75,7 @@ function Summary() {
           </div>
           <div className="flex flex-1 w-full rounded-lg mt-4" >
               <Image
-                src="https://i.ytimg.com/an_webp/tQuIk82T3X4/mqdefault_6s.webp?du=3000&sqp=COqdjrsG&rs=AOn4CLB70IEgdTGEGM0OYxxfU-XghTaprw"
+                src="thumbnail.jpg"
                 alt="Profile Picture"
                 width={100}
                 height={'100'}
